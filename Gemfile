@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '2.6.10'
 
 gem 'activerecord-session_store', '~> 2.0.0'
 gem 'excon', '~> 0.71.0'
